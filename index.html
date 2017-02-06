@@ -2,8 +2,44 @@
 <html>
 <head>
 	<title>HANGMAN GAME</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+	<div class="container">
+		<div class="jumbotron">
+			<h1>PLANET HANGMAN GAME</h1>
+			<h2>PRESS ANY KEY TO BEGIN HANGMAN</h2>
+			<div class="row">
+				<div id="currentWord">
+					<h3>CURRENT WORD: <span id="hidden"></span></h3> 
+
+			</div>
+
+			<div class="row">
+				<div id="wins1">
+					<h3>WINS: <span id="wins"></span></h2>
+				</div>
+				<div id="losses1">
+					<h3>LOSSES: <span id="losses"></span></h2>
+				</div>
+				<div id="tries1">
+					<h3>TRIES LEFT: <span id="tries"></span></h3>
+				</div>
+				<div id="guess1">
+					<h3>LETTER GUESSED: <span id="guess"></span></h3>
+				</div>
+
+
+			</div>
+
+		</div>
+
+
+	</div>
 
 </body>
+<script type="text/javascript" language="javascript" src="assets/javascript/game.js"> </script>
 </html>

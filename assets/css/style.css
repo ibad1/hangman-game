@@ -1,0 +1,14 @@
+
+.container {
+	background-color: transparent;
+}
+body {
+	background: url("../images/background.jpg");
+	color: white;
+}
+.test {
+	background-color: transparent;
+}
+.jumbotron {
+	background-color: transparent;
+}
